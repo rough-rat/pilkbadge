@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -59,7 +59,10 @@
         }
       ],
       "drc_exclusions": [
-        "courtyards_overlap|127995662|78652987|6239aa29-ba0e-4272-8029-801e90c933ea|c25ba527-7c05-4445-b7a6-c93d9399f042"
+        "courtyards_overlap|127995662|78652987|6239aa29-ba0e-4272-8029-801e90c933ea|c25ba527-7c05-4445-b7a6-c93d9399f042",
+        "lib_footprint_mismatch|109126750|89125000|7ed3f4d2-24ce-461c-93ed-41c725612ebb|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|126500000|79750000|c25ba527-7c05-4445-b7a6-c93d9399f042|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|89500000|79750000|b3824102-e8f7-4cd6-955f-782e6a1c3769|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -487,7 +490,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "pilkbadge.step",
       "svg": "",
       "vrml": ""
     },

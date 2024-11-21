@@ -25,6 +25,8 @@ fp-info-cache
 *.ses
 
 
+**/jlcpcb/**
+*.step
 *.STEP
 *.log
 *.db
